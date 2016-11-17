@@ -1,0 +1,4 @@
+# Revisa cada minuto que el proceso de ffmpeg de los dos canales este arriba
+* * * * * python /home/user/enc_scripts/watchdog_ffmpeg.py
+# Todas las noches a las 20:00 crea las carpetas en el storage del dia siguiente
+0 20 * * * python /home/user/enc_scripts/make_folder_tomorrow.py 
